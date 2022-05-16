@@ -65,6 +65,7 @@
 //     return sum }
 
 
+// ex9
 // const nulNums = (a, b) => {
 //     let sum = 0;
 //     for (i = 0; i < b; i++) {
@@ -80,14 +81,16 @@
 // }
 
 // console.log(nulnums2(3, 3))
-const isPoli = (string) => {
-    const len = string.length;  
-      for (let i = 0; i < len - 1; i++) {  
-          if (string[i] !== string[len - 1 - i]) {  
-            return "It is not a palindrome";  
-        }  
-    } 
-    return "is Poli"
-}
 
-console.log(isPoli("mimim"))
+//ex10
+// const isPoli = (string) => {
+//     const len = string.length;  
+//       for (let i = 0; i < len - 1; i++) {  
+//           if (string[i] !== string[len - 1 - i]) {  
+//             return "It is not a palindrome";  
+//         }  
+//     } 
+//     return "is Poli"
+// }
+
+
