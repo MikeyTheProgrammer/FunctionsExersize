@@ -93,4 +93,29 @@
 //     return "is Poli"
 // }
 
+// ex11 gave up
+
+
+// ex13
+
+
+const student = (student) => {
+    student.word
+    student.grade
+    student.avg
+    if (student.avg > 85) {
+        console.log(student.word + " Is a great student")
+    }
+    else if (   student.avg < 75-85) {
+        console.log(student.word + " is an ok student")
+    }
+    else if (student.avg < 75) {
+        console.log(student.word + "is a shitty student")
+    }
+}
+student {(student.name: "tomer")}
+// //ex14
+// const reversenumber = (a) => {
+// return parseFloat(a.toString().split('').reverse().join('')) * Math.sign(a)}
+// console.log(reversenumber(123456789))
 
